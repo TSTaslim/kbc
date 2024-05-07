@@ -1,24 +1,24 @@
 
 # #name varification
-# while True:
-#     name= input("Enter Your Name:")
-#     if name.isalpha():
-#         print(name,", you are entering Kaun Banega carore-Pati")
-#         break
-#     else:
-#         print("Name can't have DIgits")
-# #age verification
-# while True:
-#     age = int(input("Enter age:"))
-#     if age.isdigit():
-#         if (age>"15"):
-#             print(f"{name} ,you are is alligible to play kbc\n loading questions... ")
-#             break
-#         else:
-#             print("minor")
-#             break
-#     else:
-#         print("fuck u")
+while True:
+    name= input("Enter Your Name:")
+    if name.isalpha():
+        print(name,", you are entering Kaun Banega carore-Pati")
+        break
+    else:
+        print("Name can't have DIgits")
+#age verification
+while True:
+    age = int(input("Enter age:"))
+    if age.isdigit():
+        if (age>"15"):
+            print(f"{name} ,you are is alligible to play kbc\n loading questions... ")
+            break
+        else:
+            print("minor")
+            break
+    else:
+        print("fuck u")
 
 questions= [
     ["Question 1: What language is used to make Mine-Craft", "Python","java","C#","PhP",2],
